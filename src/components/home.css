@@ -1,0 +1,38 @@
+#hero1{
+    color: white;
+}
+.hero1-content{
+    padding: 2vw;
+    color: white;
+    height: 100vh;
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    video{
+        position: absolute;
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+        left: 0;
+        top: 0;
+        opacity: 0.7;
+        z-index: 9;
+    }
+    h1, h3, h4, .contact{
+        z-index: 11;
+    }
+}
+/* .hero1-content video{
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.7;
+    z-index: 9;
+} */
